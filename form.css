@@ -1,0 +1,70 @@
+form{
+           
+    padding: 30px;           
+    background-color:indianred; 
+              
+    
+}
+
+label{
+    color: white;
+}
+
+.form-check-input{
+    margin-left: 20px;
+}
+.checklabel{
+    margin-left: 5px;
+}
+#submit{
+    margin-top: 20px;
+    margin-left: 200px;
+    
+    
+}
+.column {
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+.left {
+    width: 38%;
+}
+
+.right {
+    width: 62%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    table, th, tr, td {
+    border: 1px solid black;
+}
+table{
+    width:90%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;      
+    
+}
+h5{
+    color:black;
+    text-align: center;
+}
+thead tr{
+    background-color:indianred;
+    color: #ffffff;
+    text-align: left;
+}
+        
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+th, td{
+    padding: 12px 15px;
+}
